@@ -10,7 +10,7 @@ EOF
 sysctl -p /etc/sysctl.conf
 printf "CGW IP? "
 read cgwip
-printf "Tunnel IP? "
+printf "Tunnel1 IP? "
 read tunnel1
 cat <<EOF > /etc/ipsec.d/aws.conf
 conn Tunnel1
